@@ -7,8 +7,6 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set("view engine", "ejs");
 app.use(express.static("public"));
-app.use("/css", express.static(__dirname + "/node_modules/bootstrap/dist/css"));
-app.use("/js", express.static(__dirname + "/node_modules/bootstrap/dist/js"));
 const port = 3000;
 
 mongoose.connect("mongodb://localhost:27017/listProject");
