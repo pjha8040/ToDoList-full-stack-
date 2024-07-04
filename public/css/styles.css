@@ -1,0 +1,117 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+  margin: 2rem 0;
+  color: #00ffcc;
+  text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc, 0 0 30px #00ffcc;
+  font-size: 7rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bt {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.bt button {
+  margin: 10px;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #333333;
+  color: #00ffcc;
+  transition: background-color 0.3s, color 0.3s;
+  box-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc, 0 0 30px #00ffcc;
+}
+
+.bt button:hover {
+  background-color: #00ffcc;
+  color: #121212;
+}
+
+form {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+input[type="text"] {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #333333;
+  background-color: #1e1e1e;
+  color: #00ffcc;
+}
+
+.list-group-item {
+  background-color: #1e1e1e;
+  color: #00ffcc;
+  border: 1px solid #333333;
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+}
+
+.footer {
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  color: #00ffcc;
+  background-color: #121212;
+  margin-top: auto;
+}
+
+.navbar {
+  margin-bottom: 2rem;
+}
+
+.haha::placeholder {
+  color: #fff;
+}
+
+input[type="text"] {
+  background-color: #333;
+  color: #121212;
+}
+.butnn {
+  margin-top: 48px;
+  height: 45px;
+}
+
+.butnnn {
+  margin-top: 10px;
+  height: 45px;
+}
+
+h2 {
+  padding: 1rem;
+  font-size: 2.7rem;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.textabout {
+  padding: 1rem;
+  font-size: 1.2rem;
+  margin: 10px;
+}
