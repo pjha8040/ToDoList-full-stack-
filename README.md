@@ -46,5 +46,3 @@ Contributions are welcome! Fork the repository and submit a pull request.
 - Inspired by the need for a simple, effective to-do list application.
 
 ---
-
-Feel free to customize and expand upon this `README.md` file based on your project specifics and personal preferences. Happy coding!
